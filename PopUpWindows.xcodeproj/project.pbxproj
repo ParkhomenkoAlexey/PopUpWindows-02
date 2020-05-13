@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C66A0206C8A5F4F3480546 /* Pods_PopUpWindows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */; };
 		F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761594246C69DB00908BD1 /* AppDelegate.swift */; };
 		F0761597246C69DB00908BD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761596246C69DB00908BD1 /* SceneDelegate.swift */; };
 		F0761599246C69DB00908BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761598246C69DB00908BD1 /* ViewController.swift */; };
 		F076159C246C69DB00908BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F076159A246C69DB00908BD1 /* Main.storyboard */; };
 		F076159E246C69DC00908BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F076159D246C69DC00908BD1 /* Assets.xcassets */; };
 		F07615A1246C69DC00908BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F076159F246C69DC00908BD1 /* LaunchScreen.storyboard */; };
+		F07615AB246C71D100908BD1 /* MyPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07615AA246C71D100908BD1 /* MyPopUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpWindows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2CEA4A770BD83728A29AA8 /* Pods-PopUpWindows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpWindows.debug.xcconfig"; path = "Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows.debug.xcconfig"; sourceTree = "<group>"; };
+		BE2D39BC722783D3E4B66179 /* Pods-PopUpWindows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpWindows.release.xcconfig"; path = "Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows.release.xcconfig"; sourceTree = "<group>"; };
 		F0761591246C69DB00908BD1 /* PopUpWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0761594246C69DB00908BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0761596246C69DB00908BD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F076159D246C69DC00908BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07615A0246C69DC00908BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F07615A2246C69DC00908BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07615AA246C71D100908BD1 /* MyPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPopUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C66A0206C8A5F4F3480546 /* Pods_PopUpWindows.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5891075AC79729A6746B5319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CEA4A770BD83728A29AA8 /* Pods-PopUpWindows.debug.xcconfig */,
+				BE2D39BC722783D3E4B66179 /* Pods-PopUpWindows.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF94542A6DB31A75FBDBBBAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0761588246C69DB00908BD1 = {
 			isa = PBXGroup;
 			children = (
 				F0761593246C69DB00908BD1 /* PopUpWindows */,
 				F0761592246C69DB00908BD1 /* Products */,
+				5891075AC79729A6746B5319 /* Pods */,
+				AF94542A6DB31A75FBDBBBAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				F0761594246C69DB00908BD1 /* AppDelegate.swift */,
 				F0761596246C69DB00908BD1 /* SceneDelegate.swift */,
 				F0761598246C69DB00908BD1 /* ViewController.swift */,
+				F07615AA246C71D100908BD1 /* MyPopUpView.swift */,
 				F076159A246C69DB00908BD1 /* Main.storyboard */,
 				F076159D246C69DC00908BD1 /* Assets.xcassets */,
 				F076159F246C69DC00908BD1 /* LaunchScreen.storyboard */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F07615A5246C69DC00908BD1 /* Build configuration list for PBXNativeTarget "PopUpWindows" */;
 			buildPhases = (
+				4956C55D6F2932EFC85B8F97 /* [CP] Check Pods Manifest.lock */,
 				F076158D246C69DB00908BD1 /* Sources */,
 				F076158E246C69DB00908BD1 /* Frameworks */,
 				F076158F246C69DB00908BD1 /* Resources */,
+				3203E48CB439798F1A6139AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3203E48CB439798F1A6139AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4956C55D6F2932EFC85B8F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopUpWindows-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F076158D246C69DB00908BD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F0761599246C69DB00908BD1 /* ViewController.swift in Sources */,
+				F07615AB246C71D100908BD1 /* MyPopUpView.swift in Sources */,
 				F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */,
 				F0761597246C69DB00908BD1 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +354,7 @@
 		};
 		F07615A6246C69DC00908BD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2CEA4A770BD83728A29AA8 /* Pods-PopUpWindows.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		F07615A7246C69DC00908BD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2D39BC722783D3E4B66179 /* Pods-PopUpWindows.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
