@@ -77,7 +77,6 @@
 		E6D1FB57DC8CFD5A4E501177DDDC0E2F /* QLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C53D0613E79D1CE36CFB2D49D1818 /* QLUtils.swift */; };
 		E8155FF399099D4EC500885CDCD4D704 /* UIView+QuickLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7204D760C86800AF882933A015A08 /* UIView+QuickLayout.swift */; };
 		ED2F50155F649D8DA24BFF93A43C273A /* EKMessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA366FB6135644508747E1998B44BC7E /* EKMessageContentView.swift */; };
-		F07615A9246C715C00908BD1 /* MyPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07615A8246C715C00908BD1 /* MyPopUpView.swift */; };
 		F186ACDAE13AEB686FC7A44958570484 /* UIEdgeInsets+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A011E916CFED4834DCA38DF4BD8838 /* UIEdgeInsets+Utils.swift */; };
 		F190F5D5A5A8CCA927DF83B204C84F68 /* EKRatingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4CFFE776F38B46FF21847B527E8C64 /* EKRatingSymbolView.swift */; };
 		F46348ED0E9AE357D2F3F2D88786AB18 /* EKAttributes+PopBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE31630FD47A841418AAECEB08D8D3 /* EKAttributes+PopBehavior.swift */; };
@@ -204,7 +203,6 @@
 		E867EF4C19CE515FBC4B85993C8BECCB /* EKNotificationMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKNotificationMessageView.swift; path = Source/MessageViews/EKNotificationMessageView.swift; sourceTree = "<group>"; };
 		EB8424013E17694294BC0DDE84A0F0A5 /* SwiftEntryKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftEntryKit.swift; path = Source/SwiftEntryKit.swift; sourceTree = "<group>"; };
 		EBB1B56FB2B520E16CD113A0ADA589F9 /* Pods-PopUpWindows-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopUpWindows-frameworks.sh"; sourceTree = "<group>"; };
-		F07615A8246C715C00908BD1 /* MyPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyPopUpView.swift; path = ../PopUpWindows/MyPopUpView.swift; sourceTree = "<group>"; };
 		F156BE6B50C0763C346932F93886C5BD /* EKRatingMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKRatingMessageView.swift; path = Source/MessageViews/EKRatingMessageView.swift; sourceTree = "<group>"; };
 		F19488C04A3290EE1039126754465B6D /* Pods-PopUpWindows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopUpWindows.release.xcconfig"; sourceTree = "<group>"; };
 		F2A5630A71BD1282A1B537296EF216F0 /* UIColor+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utils.swift"; path = "Source/Extensions/UIColor+Utils.swift"; sourceTree = "<group>"; };
@@ -407,7 +405,6 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				F07615A8246C715C00908BD1 /* MyPopUpView.swift */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				629F2A8E0FDAAFEF4FC9C19968337D40 /* Frameworks */,
 				1A71CE487768668AC0D9E3AE737987E1 /* Pods */,
@@ -655,7 +652,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67445A04F9ADFD0C646EBC30FD93BEE4 /* Pods-PopUpWindows-dummy.m in Sources */,
-				F07615A9246C715C00908BD1 /* MyPopUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
