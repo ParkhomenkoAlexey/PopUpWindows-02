@@ -35,14 +35,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        for family in UIFont.familyNames.sorted() {
+//            let names = UIFont.fontNames(forFamilyName: family)
+//            print("Family: \(family) Font names: \(names)")
+//        }
         setupConstraints()
         
         
     }
     
     func setupAttributes() -> EKAttributes {
-        var attributes = EKAttributes.centerFloat
+        var attributes = EKAttributes.bottomFloat
         attributes.displayDuration = .infinity
         attributes.screenBackground = .color(color: .init(light: UIColor(white: 100.0/255.0, alpha: 0.3), dark: UIColor(white: 50.0/255.0, alpha: 0.3)))
         attributes.shadow = .active(
@@ -54,7 +57,7 @@ class ViewController: UIViewController {
         )
         
         attributes.entryBackground = .color(color: .standardBackground)
-        attributes.roundCorners = .all(radius: 25)
+        attributes.roundCorners = .all(radius: 16)
         
         attributes.screenInteraction = .dismiss
         attributes.entryInteraction = .absorbTouches
@@ -90,56 +93,14 @@ class ViewController: UIViewController {
         return attributes
     }
     
-    func setupMessage() -> EKPopUpMessage {
-        
-        let image = UIImage(named: "ic_done_all_dark_48pt")!.withRenderingMode(.alwaysTemplate)
-        let title = "Awesome!"
-        let description =
-        """
-        You are using SwiftEntryKit, \
-        and this is a customized alert \
-        view that is floating at the bottom.
-        """
-        
-        let themeImage = EKPopUpMessage.ThemeImage(image: EKProperty.ImageContent(image: image, size: CGSize(width: 60, height: 60), tint: .black, contentMode: .scaleAspectFit))
-        
-        let titleLabel = EKProperty.LabelContent(text: title, style: .init(font: UIFont.systemFont(ofSize: 24),
-                                                                      color: .black,
-                                                                      alignment: .center))
-        
-        let descriptionLabel = EKProperty.LabelContent(
-            text: description,
-            style: .init(
-                font: UIFont.systemFont(ofSize: 16),
-                color: .black,
-                alignment: .center
-            )
-        )
-        
-        let button = EKProperty.ButtonContent(
-            label: .init(
-                text: "Got it!",
-                style: .init(
-                    font: UIFont.systemFont(ofSize: 16),
-                    color: .black
-                )
-            ),
-            backgroundColor: .init(UIColor.systemOrange),
-            highlightedBackgroundColor: .clear
-        )
-        
-        let message = EKPopUpMessage(themeImage: themeImage, title: titleLabel, description: descriptionLabel, button: button) {
-            SwiftEntryKit.dismiss()
-        }
-        return message
-    }
-    
     @objc func handleShowPopUp() {
-        SwiftEntryKit.display(entry: MyPopUpView(with: setupMessage()), using: setupAttributes())
+        SwiftEntryKit.display(entry: FullEmployeeAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Александровсвкий\nСтанислав", position: "Сотрудник"), using: setupAttributes())
     }
     
     @objc func handleShowAlert() {
-        print(#function)
+        SwiftEntryKit.display(entry: SmallAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Александровский\nСтанислав", position: "Сотрудник"), using: setupAttributes())
+        
+        
     }
 
 }

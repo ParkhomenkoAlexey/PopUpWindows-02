@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		06C66A0206C8A5F4F3480546 /* Pods_PopUpWindows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */; };
-		F02401432472B0BE0071DB3E /* MyPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02401422472B0BE0071DB3E /* MyPopUpView.swift */; };
-		F0447EA1246D133B00E4810F /* UIView+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0447EA0246D133B00E4810F /* UIView+Message.swift */; };
 		F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761594246C69DB00908BD1 /* AppDelegate.swift */; };
 		F0761597246C69DB00908BD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761596246C69DB00908BD1 /* SceneDelegate.swift */; };
 		F0761599246C69DB00908BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761598246C69DB00908BD1 /* ViewController.swift */; };
 		F076159C246C69DB00908BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F076159A246C69DB00908BD1 /* Main.storyboard */; };
 		F076159E246C69DC00908BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F076159D246C69DC00908BD1 /* Assets.xcassets */; };
 		F07615A1246C69DC00908BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F076159F246C69DC00908BD1 /* LaunchScreen.storyboard */; };
+		F07BBC60247BC15B00A43D8F /* FullEmployeeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */; };
+		F07BBC63247BC39300A43D8F /* SmallAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC62247BC39300A43D8F /* SmallAlertView.swift */; };
+		F07BBC65247BCD6B00A43D8F /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */; };
+		F07BBC67247C0B6B00A43D8F /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC66247C0B6B00A43D8F /* AlertButton.swift */; };
+		F07BBC69247C0C5D00A43D8F /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpWindows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2CEA4A770BD83728A29AA8 /* Pods-PopUpWindows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpWindows.debug.xcconfig"; path = "Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows.debug.xcconfig"; sourceTree = "<group>"; };
 		BE2D39BC722783D3E4B66179 /* Pods-PopUpWindows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpWindows.release.xcconfig"; path = "Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows.release.xcconfig"; sourceTree = "<group>"; };
-		F02401422472B0BE0071DB3E /* MyPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPopUpView.swift; sourceTree = "<group>"; };
-		F0447EA0246D133B00E4810F /* UIView+Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Message.swift"; sourceTree = "<group>"; };
 		F0761591246C69DB00908BD1 /* PopUpWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0761594246C69DB00908BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0761596246C69DB00908BD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +33,11 @@
 		F076159D246C69DC00908BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07615A0246C69DC00908BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F07615A2246C69DC00908BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullEmployeeAlertView.swift; sourceTree = "<group>"; };
+		F07BBC62247BC39300A43D8F /* SmallAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAlertView.swift; sourceTree = "<group>"; };
+		F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		F07BBC66247C0B6B00A43D8F /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +93,33 @@
 				F0761594246C69DB00908BD1 /* AppDelegate.swift */,
 				F0761596246C69DB00908BD1 /* SceneDelegate.swift */,
 				F0761598246C69DB00908BD1 /* ViewController.swift */,
-				F02401422472B0BE0071DB3E /* MyPopUpView.swift */,
-				F0447EA0246D133B00E4810F /* UIView+Message.swift */,
+				F07BBC61247BC38400A43D8F /* Views */,
+				F07BBC6A247C1FFA00A43D8F /* Extensions */,
 				F076159A246C69DB00908BD1 /* Main.storyboard */,
 				F076159D246C69DC00908BD1 /* Assets.xcassets */,
 				F076159F246C69DC00908BD1 /* LaunchScreen.storyboard */,
 				F07615A2246C69DC00908BD1 /* Info.plist */,
 			);
 			path = PopUpWindows;
+			sourceTree = "<group>";
+		};
+		F07BBC61247BC38400A43D8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F07BBC62247BC39300A43D8F /* SmallAlertView.swift */,
+				F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F07BBC6A247C1FFA00A43D8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F07BBC66247C0B6B00A43D8F /* AlertButton.swift */,
+				F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */,
+				F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,11 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02401432472B0BE0071DB3E /* MyPopUpView.swift in Sources */,
 				F0761599246C69DB00908BD1 /* ViewController.swift in Sources */,
+				F07BBC63247BC39300A43D8F /* SmallAlertView.swift in Sources */,
 				F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */,
+				F07BBC69247C0C5D00A43D8F /* UIImageView + Extension.swift in Sources */,
+				F07BBC60247BC15B00A43D8F /* FullEmployeeAlertView.swift in Sources */,
+				F07BBC67247C0B6B00A43D8F /* AlertButton.swift in Sources */,
+				F07BBC65247BCD6B00A43D8F /* StackView + Extension.swift in Sources */,
 				F0761597246C69DB00908BD1 /* SceneDelegate.swift in Sources */,
-				F0447EA1246D133B00E4810F /* UIView+Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
