@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06C66A0206C8A5F4F3480546 /* Pods_PopUpWindows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */; };
+		F0633081247E314900BB46E6 /* CollectionAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0633080247E314900BB46E6 /* CollectionAlertView.swift */; };
 		F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761594246C69DB00908BD1 /* AppDelegate.swift */; };
 		F0761597246C69DB00908BD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761596246C69DB00908BD1 /* SceneDelegate.swift */; };
 		F0761599246C69DB00908BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0761598246C69DB00908BD1 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		20691DF32FDEF773D3504729 /* Pods_PopUpWindows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopUpWindows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2CEA4A770BD83728A29AA8 /* Pods-PopUpWindows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpWindows.debug.xcconfig"; path = "Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows.debug.xcconfig"; sourceTree = "<group>"; };
 		BE2D39BC722783D3E4B66179 /* Pods-PopUpWindows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopUpWindows.release.xcconfig"; path = "Target Support Files/Pods-PopUpWindows/Pods-PopUpWindows.release.xcconfig"; sourceTree = "<group>"; };
+		F0633080247E314900BB46E6 /* CollectionAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAlertView.swift; sourceTree = "<group>"; };
 		F0761591246C69DB00908BD1 /* PopUpWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUpWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0761594246C69DB00908BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0761596246C69DB00908BD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				F07BBC62247BC39300A43D8F /* SmallAlertView.swift */,
 				F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */,
+				F0633080247E314900BB46E6 /* CollectionAlertView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0761599246C69DB00908BD1 /* ViewController.swift in Sources */,
+				F0633081247E314900BB46E6 /* CollectionAlertView.swift in Sources */,
 				F07BBC63247BC39300A43D8F /* SmallAlertView.swift in Sources */,
 				F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */,
 				F07BBC69247C0C5D00A43D8F /* UIImageView + Extension.swift in Sources */,
