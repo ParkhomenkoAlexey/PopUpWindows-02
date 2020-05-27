@@ -94,7 +94,7 @@ class ViewController: UIViewController {
     }
     
     @objc func handleShowPopUp() {
-        SwiftEntryKit.display(entry: FullEmployeeAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), fullName: "Александровсвкий\nСтанислав", specialty: "Сотрудник"), using: setupAttributes())
+        SwiftEntryKit.display(entry: FullEmployeeAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Александровсвкий\nСтанислав", position: "Сотрудник"), using: setupAttributes())
     }
     
     @objc func handleShowAlert() {

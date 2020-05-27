@@ -15,11 +15,23 @@
 		F076159C246C69DB00908BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F076159A246C69DB00908BD1 /* Main.storyboard */; };
 		F076159E246C69DC00908BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F076159D246C69DC00908BD1 /* Assets.xcassets */; };
 		F07615A1246C69DC00908BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F076159F246C69DC00908BD1 /* LaunchScreen.storyboard */; };
-		F07BBC60247BC15B00A43D8F /* FullEmployeeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */; };
 		F07BBC63247BC39300A43D8F /* SmallAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC62247BC39300A43D8F /* SmallAlertView.swift */; };
 		F07BBC65247BCD6B00A43D8F /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */; };
 		F07BBC67247C0B6B00A43D8F /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC66247C0B6B00A43D8F /* AlertButton.swift */; };
 		F07BBC69247C0C5D00A43D8F /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */; };
+		F0C3A9E4247EBBBE00EC454D /* RequestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9E3247EBBBE00EC454D /* RequestFirst.swift */; };
+		F0C3A9E6247EBBC300EC454D /* RequestSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9E5247EBBC300EC454D /* RequestSecond.swift */; };
+		F0C3A9E9247EBBD200EC454D /* PresentFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9E8247EBBD200EC454D /* PresentFirst.swift */; };
+		F0C3A9EB247EBBD800EC454D /* PresentSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9EA247EBBD800EC454D /* PresentSecond.swift */; };
+		F0C3A9EE247EBBE400EC454D /* BuyFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9ED247EBBE400EC454D /* BuyFirst.swift */; };
+		F0C3A9F0247EBBEB00EC454D /* BuySecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9EF247EBBEB00EC454D /* BuySecond.swift */; };
+		F0C3A9F2247EBBF200EC454D /* BuyThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9F1247EBBF200EC454D /* BuyThird.swift */; };
+		F0C3A9F5247EBC0800EC454D /* EmployeeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9F4247EBC0800EC454D /* EmployeeFirst.swift */; };
+		F0C3A9F7247EBC0F00EC454D /* EmployeeThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9F6247EBC0F00EC454D /* EmployeeThird.swift */; };
+		F0C3A9F9247EBC1300EC454D /* EmployeeFourth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9F8247EBC1300EC454D /* EmployeeFourth.swift */; };
+		F0C3A9FC247EBC2300EC454D /* BalanceFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9FB247EBC2300EC454D /* BalanceFirst.swift */; };
+		F0C3A9FE247EBC2800EC454D /* BalanceSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9FD247EBC2800EC454D /* BalanceSecond.swift */; };
+		F0C3AA00247EBC2D00EC454D /* BalanceThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9FF247EBC2D00EC454D /* BalanceThird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +47,23 @@
 		F076159D246C69DC00908BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07615A0246C69DC00908BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F07615A2246C69DC00908BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullEmployeeAlertView.swift; sourceTree = "<group>"; };
 		F07BBC62247BC39300A43D8F /* SmallAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAlertView.swift; sourceTree = "<group>"; };
 		F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
 		F07BBC66247C0B6B00A43D8F /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
 		F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		F0C3A9E3247EBBBE00EC454D /* RequestFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFirst.swift; sourceTree = "<group>"; };
+		F0C3A9E5247EBBC300EC454D /* RequestSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSecond.swift; sourceTree = "<group>"; };
+		F0C3A9E8247EBBD200EC454D /* PresentFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFirst.swift; sourceTree = "<group>"; };
+		F0C3A9EA247EBBD800EC454D /* PresentSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentSecond.swift; sourceTree = "<group>"; };
+		F0C3A9ED247EBBE400EC454D /* BuyFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyFirst.swift; sourceTree = "<group>"; };
+		F0C3A9EF247EBBEB00EC454D /* BuySecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuySecond.swift; sourceTree = "<group>"; };
+		F0C3A9F1247EBBF200EC454D /* BuyThird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyThird.swift; sourceTree = "<group>"; };
+		F0C3A9F4247EBC0800EC454D /* EmployeeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeFirst.swift; sourceTree = "<group>"; };
+		F0C3A9F6247EBC0F00EC454D /* EmployeeThird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeThird.swift; sourceTree = "<group>"; };
+		F0C3A9F8247EBC1300EC454D /* EmployeeFourth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeFourth.swift; sourceTree = "<group>"; };
+		F0C3A9FB247EBC2300EC454D /* BalanceFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceFirst.swift; sourceTree = "<group>"; };
+		F0C3A9FD247EBC2800EC454D /* BalanceSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceSecond.swift; sourceTree = "<group>"; };
+		F0C3A9FF247EBC2D00EC454D /* BalanceThird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceThird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +119,12 @@
 				F0761594246C69DB00908BD1 /* AppDelegate.swift */,
 				F0761596246C69DB00908BD1 /* SceneDelegate.swift */,
 				F0761598246C69DB00908BD1 /* ViewController.swift */,
+				F0C3AA01247EBC3500EC454D /* Balance */,
+				F0C3A9FA247EBC1C00EC454D /* Employee */,
 				F07BBC61247BC38400A43D8F /* Views */,
 				F07BBC6A247C1FFA00A43D8F /* Extensions */,
+				F0C3A9EC247EBBDD00EC454D /* Present */,
+				F0C3A9F3247EBBFA00EC454D /* Buy */,
 				F076159A246C69DB00908BD1 /* Main.storyboard */,
 				F076159D246C69DC00908BD1 /* Assets.xcassets */,
 				F076159F246C69DC00908BD1 /* LaunchScreen.storyboard */,
@@ -109,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				F07BBC62247BC39300A43D8F /* SmallAlertView.swift */,
-				F07BBC5F247BC15B00A43D8F /* FullEmployeeAlertView.swift */,
 				F0633080247E314900BB46E6 /* CollectionAlertView.swift */,
 			);
 			path = Views;
@@ -121,8 +148,57 @@
 				F07BBC66247C0B6B00A43D8F /* AlertButton.swift */,
 				F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */,
 				F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */,
+				F0C3A9E7247EBBCB00EC454D /* Request */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F0C3A9E7247EBBCB00EC454D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3A9E3247EBBBE00EC454D /* RequestFirst.swift */,
+				F0C3A9E5247EBBC300EC454D /* RequestSecond.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F0C3A9EC247EBBDD00EC454D /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3A9E8247EBBD200EC454D /* PresentFirst.swift */,
+				F0C3A9EA247EBBD800EC454D /* PresentSecond.swift */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		F0C3A9F3247EBBFA00EC454D /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3A9ED247EBBE400EC454D /* BuyFirst.swift */,
+				F0C3A9EF247EBBEB00EC454D /* BuySecond.swift */,
+				F0C3A9F1247EBBF200EC454D /* BuyThird.swift */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		F0C3A9FA247EBC1C00EC454D /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3A9F4247EBC0800EC454D /* EmployeeFirst.swift */,
+				F0C3A9F6247EBC0F00EC454D /* EmployeeThird.swift */,
+				F0C3A9F8247EBC1300EC454D /* EmployeeFourth.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		F0C3AA01247EBC3500EC454D /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3A9FB247EBC2300EC454D /* BalanceFirst.swift */,
+				F0C3A9FD247EBC2800EC454D /* BalanceSecond.swift */,
+				F0C3A9FF247EBC2D00EC454D /* BalanceThird.swift */,
+			);
+			path = Balance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,15 +316,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C3A9E6247EBBC300EC454D /* RequestSecond.swift in Sources */,
+				F0C3A9E4247EBBBE00EC454D /* RequestFirst.swift in Sources */,
 				F0761599246C69DB00908BD1 /* ViewController.swift in Sources */,
+				F0C3A9EE247EBBE400EC454D /* BuyFirst.swift in Sources */,
+				F0C3A9F2247EBBF200EC454D /* BuyThird.swift in Sources */,
 				F0633081247E314900BB46E6 /* CollectionAlertView.swift in Sources */,
 				F07BBC63247BC39300A43D8F /* SmallAlertView.swift in Sources */,
 				F0761595246C69DB00908BD1 /* AppDelegate.swift in Sources */,
+				F0C3A9E9247EBBD200EC454D /* PresentFirst.swift in Sources */,
+				F0C3A9F9247EBC1300EC454D /* EmployeeFourth.swift in Sources */,
 				F07BBC69247C0C5D00A43D8F /* UIImageView + Extension.swift in Sources */,
-				F07BBC60247BC15B00A43D8F /* FullEmployeeAlertView.swift in Sources */,
+				F0C3A9F7247EBC0F00EC454D /* EmployeeThird.swift in Sources */,
 				F07BBC67247C0B6B00A43D8F /* AlertButton.swift in Sources */,
+				F0C3A9FE247EBC2800EC454D /* BalanceSecond.swift in Sources */,
+				F0C3A9F5247EBC0800EC454D /* EmployeeFirst.swift in Sources */,
+				F0C3A9F0247EBBEB00EC454D /* BuySecond.swift in Sources */,
+				F0C3A9EB247EBBD800EC454D /* PresentSecond.swift in Sources */,
+				F0C3AA00247EBC2D00EC454D /* BalanceThird.swift in Sources */,
 				F07BBC65247BCD6B00A43D8F /* StackView + Extension.swift in Sources */,
 				F0761597246C69DB00908BD1 /* SceneDelegate.swift in Sources */,
+				F0C3A9FC247EBC2300EC454D /* BalanceFirst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
