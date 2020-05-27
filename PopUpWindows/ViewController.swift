@@ -35,10 +35,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        for family in UIFont.familyNames.sorted() {
-            let names = UIFont.fontNames(forFamilyName: family)
-            print("Family: \(family) Font names: \(names)")
-        }
+//        for family in UIFont.familyNames.sorted() {
+//            let names = UIFont.fontNames(forFamilyName: family)
+//            print("Family: \(family) Font names: \(names)")
+//        }
         setupConstraints()
         
         
@@ -94,14 +94,23 @@ class ViewController: UIViewController {
     }
     
     @objc func handleShowPopUp() {
-        SwiftEntryKit.display(entry: FullEmployeeAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Александровсвкий\nСтанислав", position: "Сотрудник"), using: setupAttributes())
+        SwiftEntryKit.display(entry: NameBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), title: "Наименование товара или услуги", specialtyLabel: "Knit crewneck sweater from YMC. Crewneck collar. Raglan sleeves. Ribbed trim. Straight hem.", price: 1500),
+                              using: setupAttributes())
+        
+        
     }
     
     @objc func handleShowAlert() {
-        SwiftEntryKit.display(entry: SmallAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), fullName: "Александровский\nСтанислав", specialty: "Сотрудник"), using: setupAttributes())
+        SwiftEntryKit.display(entry: SmallBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Наименование товара или услуги", price: 1500), using: setupAttributes())
         
         
     }
+    
+//    @objc func handleShowAlert() {
+//        SwiftEntryKit.display(entry: SmallAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), fullName: "Александровский\nСтанислав", specialty: "Сотрудник"), using: setupAttributes())
+//
+//
+//    }
 
 }
 

@@ -32,6 +32,7 @@
 		F0C3A9FC247EBC2300EC454D /* BalanceFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9FB247EBC2300EC454D /* BalanceFirst.swift */; };
 		F0C3A9FE247EBC2800EC454D /* BalanceSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9FD247EBC2800EC454D /* BalanceSecond.swift */; };
 		F0C3AA00247EBC2D00EC454D /* BalanceThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C3A9FF247EBC2D00EC454D /* BalanceThird.swift */; };
+		F0E57DF1247ED250005613F9 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E57DF0247ED250005613F9 /* UIView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		F0C3A9FB247EBC2300EC454D /* BalanceFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceFirst.swift; sourceTree = "<group>"; };
 		F0C3A9FD247EBC2800EC454D /* BalanceSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceSecond.swift; sourceTree = "<group>"; };
 		F0C3A9FF247EBC2D00EC454D /* BalanceThird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceThird.swift; sourceTree = "<group>"; };
+		F0E57DF0247ED250005613F9 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				F07BBC66247C0B6B00A43D8F /* AlertButton.swift */,
 				F07BBC64247BCD6B00A43D8F /* StackView + Extension.swift */,
 				F07BBC68247C0C5D00A43D8F /* UIImageView + Extension.swift */,
+				F0E57DF0247ED250005613F9 /* UIView + Extension.swift */,
 				F0C3A9E7247EBBCB00EC454D /* Request */,
 			);
 			path = Extensions;
@@ -320,6 +323,7 @@
 				F0C3A9E4247EBBBE00EC454D /* RequestFirst.swift in Sources */,
 				F0761599246C69DB00908BD1 /* ViewController.swift in Sources */,
 				F0C3A9EE247EBBE400EC454D /* BuyFirst.swift in Sources */,
+				F0E57DF1247ED250005613F9 /* UIView + Extension.swift in Sources */,
 				F0C3A9F2247EBBF200EC454D /* BuyThird.swift in Sources */,
 				F0633081247E314900BB46E6 /* CollectionAlertView.swift in Sources */,
 				F07BBC63247BC39300A43D8F /* SmallAlertView.swift in Sources */,

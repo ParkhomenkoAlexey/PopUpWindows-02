@@ -33,11 +33,16 @@ class NameBuyAlertView: UIView {
     }
 
     @objc func actionButtonPressed() {
-
-        SwiftEntryKit.transform(to: NameBuyPaymentAlertView(title: "Наименование товара или услуги", price: 1500))
-
+        
+        let newView = NameBuyPaymentAlertView(title: "Наименование товара или услуги", price: 1500)
+//        let newView = SmallBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Наименование товара или услуги", price: 1500)
+        // SmallBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), name: "Наименование товара или услуги", price: 1500)
+        transform(to: newView)
+        
     }
 }
+
+
 
 // MARK: - Setup View
 extension NameBuyAlertView {
@@ -49,8 +54,8 @@ extension NameBuyAlertView {
         titleLabel.font = UIFont.init(name: "Helvetica-Bold", size: 20)
         titleLabel.textColor = #colorLiteral(red: 0.05098039216, green: 0.05490196078, blue: 0.06274509804, alpha: 1)
 
-        specialtyLabel.font = UIFont.init(name: "Helvetica", size: 15)
-        specialtyLabel.textColor = #colorLiteral(red: 0.05098039216, green: 0.05490196078, blue: 0.06274509804, alpha: 0.3049640487)
+        specialtyLabel.font = UIFont.init(name: "Helvetica", size: 16)
+        specialtyLabel.textColor = #colorLiteral(red: 0.05098039216, green: 0.05490196078, blue: 0.06274509804, alpha: 0.4960764657)
         specialtyLabel.numberOfLines = 0
 
         actionButton.addTarget(self, action: #selector(actionButtonPressed), for: .touchUpInside)
@@ -95,7 +100,7 @@ extension NameBuyAlertView {
         NSLayoutConstraint.activate([
             specialtyLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10 ),
             specialtyLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 20),
-            specialtyLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20)
+            specialtyLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -37)
         ])
 
         NSLayoutConstraint.activate([

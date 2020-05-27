@@ -31,10 +31,12 @@ class NameBuyPaymentAlertView: UIView {
     }
 
     @objc func actionButtonPressed() {
-        SwiftEntryKit.transform(to: BalanceSendAlertView(image: #imageLiteral(resourceName: "pocket"), fullNameLabel: "Вам отправлена ссылка на оплату"))
+        let newView = BalanceSendAlertView(image: #imageLiteral(resourceName: "pocket"), fullNameLabel: "Вам отправлена ссылка на оплату")
+        transform(to: newView)
     }
     @objc func cancelActionButtonPressed() {
-        SwiftEntryKit.transform(to: NameBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), title: "Наименование товара или услуги", specialtyLabel: "Knit crewneck sweater from YMC. Crewneck collar. Raglan sleeves. Ribbed trim. Straight hem.", price: 1500))
+        let newView = NameBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), title: "Наименование товара или услуги", specialtyLabel: "Knit crewneck sweater from YMC. Crewneck collar. Raglan sleeves. Ribbed trim. Straight hem.", price: 1500)
+        transform(to: newView)
     }
 }
 

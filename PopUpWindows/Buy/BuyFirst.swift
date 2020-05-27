@@ -32,7 +32,9 @@ class SmallBuyAlertView: UIView {
 
     @objc func actionButtonPressed() {
 
-        SwiftEntryKit.transform(to: NameBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), title: "Наименование товара или услуги", specialtyLabel: "Knit crewneck sweater from YMC. Crewneck collar. Raglan sleeves. Ribbed trim. Straight hem.", price: 1500))
+        let newView = NameBuyAlertView(image: #imageLiteral(resourceName: "ic_done_all_dark_48pt"), title: "Наименование товара или услуги", specialtyLabel: "Knit crewneck sweater from YMC. Crewneck collar. Raglan sleeves. Ribbed trim. Straight hem.", price: 1500)
+//        SwiftEntryKit.transform(to: newView)
+        transform(to: newView)
 
     }
 }
@@ -87,7 +89,6 @@ extension SmallBuyAlertView {
         ])
 
         NSLayoutConstraint.activate([
-            //priceLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20 ),
             priceLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 16),
             priceLabel.trailingAnchor.constraint(equalTo: actionButton.leadingAnchor, constant: -30),
             priceLabel.bottomAnchor.constraint(equalTo: imageView.bottomAnchor)
